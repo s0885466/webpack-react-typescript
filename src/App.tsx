@@ -5,6 +5,12 @@ import LOGO from './logo.svg'
 import { ClickCounter } from './ClickCounter'
 
 export const App = () => {
+  const x = async () => {
+    await console.log()
+  }
+
+  x()
+
   return (
     <>
       <h1>
