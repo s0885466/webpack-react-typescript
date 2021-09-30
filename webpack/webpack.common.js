@@ -32,7 +32,6 @@ module.exports = {
     output: {
         path: path.resolve(__dirname, '..', './build'),
     },
-    mode: 'development',
     plugins: [
         new HtmlWebpackPlugin({
             template: path.resolve(__dirname, '..', './src/index.html')
